@@ -212,7 +212,7 @@ app.post("/api/register", upload.single("profilePhoto"), async (req, res) => {
 })
 
 const server = app.listen(process.env.PORT, () => {
-  console.log("running server at", process.env.PORT)
+  console.log("running backend server at", process.env.PORT)
 })
 
 //----------------- creating web socket server in this same file ------------------------
